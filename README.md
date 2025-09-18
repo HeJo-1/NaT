@@ -37,6 +37,7 @@ To use this tool, you must have the **Go** programming language installed on you
 3.  **Install Dependencies:**
     While in the project directory, run the following command to download the required external Go modules. This command will automatically analyze the `go.mod` file and fetch all dependencies.
     ```sh
+    go mod init github.com/HeJo-1/NaT
     go mod tidy
     ```
 
